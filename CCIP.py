@@ -33,20 +33,7 @@ txt.grid(row=1, column=0, columnspan=3)
 txt2 = Text(height=10, width=40)
 txt2.grid(row=1, column=3, columnspan=3)
 
-# lbl2 = ttk.Label(text='Результат')
-# lbl2.grid(row=2, column=3, columnspan=3)
-# ent2 = ttk.Entry(width=20)
-# ent2.grid(row=4, column=1)
 
-
-# lbl4 = ttk.Label(text='Сдвиг')
-# lbl4.grid(row=4, column=0)
-# btn2 = ttk.Button(text="Декодирование")
-# btn2.grid(row=4, column=2)
-# txt4 = Text(height=10, width=40)
-# txt4.grid(row=3, column=0, columnspan=3)
-# txt3 = Text(height=10, width=40)
-# txt3.grid(row=3, column=3)
 
 def code():
     txt2.delete("1.0", "end")
